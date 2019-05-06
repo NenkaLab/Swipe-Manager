@@ -10,5 +10,11 @@ view.setOnTouchListener(object : OnSwipeTouchListener(context!!) {
   override fun onSwipeRightToLeft() {
     //TODO
   }
+  override fun onSwipeBottomToTop() {
+    //TODO
+  }
+  override fun onSwipeTopToBottom() {
+    //TODO
+  }
 })
 ```        
